@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyfinalProject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="android:colorBackground">@color/colorPrimaryDark_light</item>
+        <item name="android:textColorPrimary">@color/colorText_light</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary_light</item>
+        <item name="android:fontFamily">@font/iransans</item>
+        <item name="colorAccent">@color/colorAccent_light</item>
+        <item name="colorPrimary">@color/colorPrimary_light</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_light</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">
+            @color/colorPrimary_light
+        </item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimaryVariant">@color/color2</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color2</item>
+        <item name="colorSecondaryVariant">@color/color2</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.MyfinalProject.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MyfinalProject.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MyfinalProject.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

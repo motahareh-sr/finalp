@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="@dimen/dp32"
+    android:paddingLeft="@dimen/dp16"
+    android:paddingRight="@dimen/dp16"
+    tools:context=".fragments.AboutUsFragment">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/profile"/>
+    <TextView
+        android:textSize="@dimen/dp16"
+        android:layout_margin="@dimen/dp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="ZAHRA ASAAL"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="API developer \n code student : 9910031093 \n email: zahra.aasal.2000@gmail.com"
+        android:textColor="#000"
+        android:textSize="14dp" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/profile"/>
+    <TextView
+        android:textSize="@dimen/dp16"
+        android:layout_margin="@dimen/dp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:text="MOTAHAREH SADEGHI RAD"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="UI developer \n code student : 99100310 \n email: zahra.aasal.2000@gmail.com"
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+</LinearLayout>
